@@ -59,6 +59,20 @@ E-commerce companies struggle with generic marketing campaigns that result in po
 - **Revenue Growth**: $500K+ additional revenue potential
 - **Customer Retention**: 15% improvement in repeat purchases
 
+## 📊 Visualizations
+
+![Customer Clusters](visualizations/customer_clusters_pca.png)
+*Customer segments visualized in principal component space*
+
+![RFM Analysis](visualizations/rfm_analysis_dashboard.png)
+*Comprehensive RFM analysis dashboard*
+
+![Business Impact](visualizations/business_impact_analysis.png)
+*ROI projections and business impact analysis*
+
+![Cluster Optimization](visualizations/cluster_optimization.png)
+*Scientific approach to determining optimal cluster count*
+
 ## 🎯 How to Run
 
 1. **Clone the repository**
@@ -77,10 +91,13 @@ customer_segmentation/
 ├── README.md # Project documentation
 ├── requirements.txt # Python dependencies
 ├── customer_segmentation_analysis.ipynb # Main analysis notebook
+├── visualizations/ # Generated plots and charts
+│ ├── customer_clusters_pca.png
+│ ├── rfm_analysis_dashboard.png
+│ ├── business_impact_analysis.png
+│ └── cluster_optimization.png
 ├── data/ # Dataset files
-├── models/ # Trained models
-├── results/ # Analysis outputs
-└── visualizations/ # Generated plots
+└── LICENSE # MIT License
 
 ## 🔍 Key Insights
 
@@ -97,7 +114,7 @@ customer_segmentation/
 - **Preprocessing**: Outlier handling, feature scaling, missing value treatment
 
 ### Model Performance
-- **Algorithm**: K-means clustering with 4 clusters
+- **Algorithm**: K-means clustering with optimal number of clusters
 - **Validation**: Silhouette score analysis and elbow method
 - **Quality**: High intra-cluster similarity and inter-cluster separation
 
@@ -112,12 +129,12 @@ customer_segmentation/
 
 **Vikas**
 - GitHub: [@VikasDs007](https://github.com/VikasDs007)
-- LinkedIn: https://www.linkedin.com/in/vikas-chaurasia-ds
+- LinkedIn: www.linkedin.com/in/vikas-chaurasia-ds
 - Email: vikasjchaurasia@gmail.com
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/VikasDs007/customer_segmentation/blob/main/docs/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
